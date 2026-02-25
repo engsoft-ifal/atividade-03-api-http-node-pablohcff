@@ -46,11 +46,11 @@ Os dados deverão ser armazenados em memória (array).
 
 Edite esta seção antes de iniciar.
 
-Nome completo:
-Matrícula:
-Variação calculada:
+Nome completo: Pablo Henrique Costa Franciolly Fonseca 
+Matrícula: 2023012033
+Variação calculada: 3
 
-Cálculo da variação:
+Cálculo da variação: 3
 Último dígito da matrícula % 4
 
 Exemplo:
