@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
   // =========================
   // GET /
   // =========================
-  if (req.method === "GET" && req.url === "/") {
+  if (req.method === "GET" && req.url === "/requerimentos") {
     return sendJson(res, 200, requerimentos);
   }
 
@@ -58,7 +58,7 @@ if (req.method === "GET" && req.url.startsWith("/") && req.url !== "/" && req.ur
 // =========================
 // POST /
 // =========================
-if (req.method === "POST" && req.url === "/") {
+if (req.method === "POST" && req.url === "/requerimentos") {
 
   let body = "";
 
@@ -107,6 +107,6 @@ if (req.method === "POST" && req.url === "/") {
 
 });
 
-server.listen(3000, () => {
+server.listen(3000 , () => {
   console.log("Servidor rodando na porta 3000");
 });
