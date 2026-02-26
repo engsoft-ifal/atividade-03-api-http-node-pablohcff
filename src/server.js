@@ -107,6 +107,6 @@ if (req.method === "POST" && req.url === "/") {
 
 });
 
-server.listen(3002, () => {
-  console.log("Servidor rodando na porta 3002");
+server.listen(3000, () => {
+  console.log("Servidor rodando na porta 3000");
 });
