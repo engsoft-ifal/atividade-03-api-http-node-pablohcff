@@ -21,12 +21,14 @@ jobs:
       - name: Check server file exists
         run: |
           test -f src/server.js || (echo "src/server.js não encontrado" && exit 1)
-      - name: Check Express not used
+      
+      - name: Check Express not installed
         run: |
-          if grep -Ri "express" .; then
+          if grep -q '"express"' package.json; then
             echo "Express não é permitido"
             exit 1
           fi
+      
       - name: Check ESM usage
         run: |
           if grep -R "require(" src; then
