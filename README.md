@@ -47,7 +47,9 @@ Os dados deverão ser armazenados em memória (array).
 Edite esta seção antes de iniciar.
 
 Nome completo: Pablo Henrique Costa Franciolly Fonseca 
+
 Matrícula: 2023012033
+
 Variação calculada: 3
 
 Cálculo da variação: 3
